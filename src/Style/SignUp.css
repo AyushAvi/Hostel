@@ -1,0 +1,93 @@
+.SignUpForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.SignupComponent{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 20px;
+    width: 400px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.SignupComponent h3{
+    text-transform: uppercase;
+    margin: 0px 0px 0px 0px;
+    font-size: 30px;
+    font-weight:700;
+    color: rgb(25, 25, 25);
+}
+
+.SignupComponent p{
+    margin: 0;
+    font-weight: 200;
+    color: rgb(102, 102, 102);
+}
+
+.SignupComponent form{
+    margin: 30px 0px 10px 0px;
+}
+
+.formdiv{
+    margin-bottom: 15px;
+}
+
+.formdiv input{
+    width: 100%;
+    height: 35px;
+    border: 1px rgb(190, 190, 190) solid;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.formdiv input:focus{
+    outline: none;
+    border: 1px rgb(61, 167, 223) solid;
+}
+
+.formdiv label{
+    font-size: medium;
+    color: rgb(102 , 102, 102);
+    font-weight: 200;
+}
+
+.SignupBtn{
+    width: 103%;
+    border-radius: 5px;
+    height: 45px;
+    margin-top: 10px;
+    font-size: medium;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    outline: none;
+    border: 0;
+    background-image: linear-gradient(45deg, rgb(95,227,236), rgb(61,167,223));
+    color: white;
+    box-shadow: 5px 5px 10px rgba(61, 166, 223, 0.3);
+    transition: all .1s;
+}
+
+.SignupBtn:hover{
+    box-shadow: 5px 5px 15px rgba(61, 166, 223, 0.7);
+}
+
+.SignupBtn:active{
+    box-shadow: 0px 0px 0px rgba(61, 166, 223, 0.7);
+}
+
+.formError{
+    color: rgb(223, 0, 0);
+    font-weight: 400;
+}
+
+.needAcc{
+    padding-top: 10px;
+}
